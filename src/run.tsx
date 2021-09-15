@@ -1,3 +1,3 @@
 console.log(
-  'HeyyY!!!222224444'
+  'Super code!!!'
 );
