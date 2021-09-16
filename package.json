@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "concurrently -k -n TSC,NODEMON -c blue,green \"tsc -w\" \"nodemon -w dist -q dist/run.js\""
+    "start": "concurrently -n TSC,NODEMON -c blue,green \"tsc -w\" \"nodemon -w dist -q dist/run.js\""
   },
   "author": "",
   "license": "ISC",
